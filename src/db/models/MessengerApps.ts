@@ -4,7 +4,7 @@ import {
   messengerAppSchema
 } from "./definitions/messengerApps";
 
-interface IMessengerAppModel extends Model<IMessengerAppDocument> {}
+export interface IMessengerAppModel extends Model<IMessengerAppDocument> {}
 
 // tslint:disable-next-line
 const MessengerApps = model<IMessengerAppDocument, IMessengerAppModel>(

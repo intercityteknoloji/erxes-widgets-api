@@ -4,7 +4,7 @@ import {
   IEngageMessageDocument
 } from "./definitions/engages";
 
-interface IEngageMessageModel extends Model<IEngageMessageDocument> {}
+export interface IEngageMessageModel extends Model<IEngageMessageDocument> {}
 
 class EngageMessage {}
 

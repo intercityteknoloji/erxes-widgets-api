@@ -8,9 +8,9 @@ import {
   topicSchema
 } from "./definitions/knowledgebase";
 
-interface IArticleModel extends Model<IArticleDocument> {}
-interface ICategoryModel extends Model<ICategoryDocument> {}
-interface ITopicModel extends Model<ITopicDocument> {}
+export interface IArticleModel extends Model<IArticleDocument> {}
+export interface ICategoryModel extends Model<ICategoryDocument> {}
+export interface ITopicModel extends Model<ITopicDocument> {}
 
 // tslint:disable-next-line
 export const KnowledgeBaseArticles = model<IArticleDocument, IArticleModel>(
